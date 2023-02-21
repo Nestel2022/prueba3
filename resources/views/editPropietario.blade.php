@@ -4,7 +4,7 @@
 <div class="row mt-3">
     <div class="col-md-6 offset-md-3">
         <div class="card">
-            <div class="card-header bg-dark text-white">Editar Propietario </div>
+            <div class="card-header bg-dark text-white">Editar Propietario Ahora</div>
             <div class="card-body">
                 <form id="frmPropietarios" method="POST" action="{{url("propietarios", [$propietario])}}">
                     @method("PUT")
